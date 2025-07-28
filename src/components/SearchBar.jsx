@@ -1,4 +1,4 @@
-const SearchBar = ({ searchText, setSearchText }) => {
+const SearchBar = ({ searchText, setSearchText, onSearch }) => {
   return (
     <div className="mb-4 flex gap-2">
       <input
