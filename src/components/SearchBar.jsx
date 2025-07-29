@@ -8,9 +8,6 @@ const SearchBar = ({ searchText, setSearchText, onSearch }) => {
         onChange={(e) => setSearchText(e.target.value)}
         className="border p-2 rounded w-[200px]"
       />
-      <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-        Search
-      </button>
     </div>
   );
 };
